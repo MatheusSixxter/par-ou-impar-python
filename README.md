@@ -34,7 +34,6 @@ O jogo continua enquanto o jogador acertar e, ao final, exibe quantas vitórias 
 
 ```bash
 python par_ou_impar.py
-
 ---
 
 ## 📌 Exemplo de execução
@@ -50,8 +49,6 @@ GAME OVER! Você venceu X vez(es).
 ```
 
 ---
-
-
 
 
 
