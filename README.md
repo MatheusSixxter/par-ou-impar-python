@@ -34,3 +34,11 @@ O jogo continua enquanto o jogador acertar e, ao final, exibe quantas vitórias 
 
 ```bash
 python par_ou_impar.py
+
+---
+
+🏁 Resultado final
+
+O jogo exibe mensagens claras, conta suas vitórias e finaliza mostrando:
+
+"GAME OVER! Você venceu X vez(es)."
