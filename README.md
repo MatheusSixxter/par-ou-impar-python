@@ -39,13 +39,18 @@ python par_ou_impar.py
 
 ## 📌 Exemplo de execução
 
+```
 Escolha um número: 7
 Par ou Ímpar? [P/I] P
 Você jogou 7 e o computador jogou 4. Total de 11.
 > Deu ÍMPAR!
-Você PERDEU! :(
-GAME OVER! Você venceu X vez(es).  
+Você PERDEU!
+GAME OVER! Você venceu X vez(es).
 (X representa o número de vitórias consecutivas alcançadas pelo jogador.)
+```
+
+---
+
 
 
 
