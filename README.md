@@ -1,73 +1,36 @@
-🎲 Jogo de Par ou Ímpar (Python)
+# 🎮 Jogo de Par ou Ímpar (Python)
 
-Um jogo simples de Par ou Ímpar desenvolvido em Python.
-O jogador escolhe um número e tenta adivinhar se a soma com o número escolhido pelo computador será PAR ou ÍMPAR.
-O jogo continua até o jogador perder, e ao final mostra o total de vitórias consecutivas.
+Um jogo simples desenvolvido em Python onde o jogador escolhe um número e tenta adivinhar se a soma com o número escolhido pelo computador será **PAR** ou **ÍMPAR**.  
+O jogo continua enquanto o jogador acertar e, ao final, exibe quantas vitórias consecutivas foram alcançadas.
 
-🚀 Funcionalidades
+---
 
-Entrada do usuário com validação (P ou I)
+## 🚀 Funcionalidades
 
-Escolha aleatória do computador
+- ✔️ Entrada do jogador com validação (P ou I)
+- ✔️ Escolha aleatória do computador
+- ✔️ Verificação automática de PAR ou ÍMPAR
+- ✔️ Contador de vitórias consecutivas
+- ✔️ Loop contínuo até o jogador perder
+- ✔️ Feedback completo a cada rodada
 
-Verificação automática de par ou ímpar
+---
 
-Contador de vitórias seguidas
+## 🧠 Lógica do jogo
 
-Loop de repetição até o jogador perder
+1. O jogador escolhe um número.  
+2. O computador sorteia outro número.  
+3. Os dois números são somados.  
+4. O programa verifica se o total é PAR ou ÍMPAR.  
+5. Se o jogador acertar, o jogo continua.  
+6. Se o jogador errar, o jogo acaba e mostra as vitórias.
 
-Feedback completo a cada rodada
+---
 
-🧠 Lógica Básica
+## ▶️ Como executar
 
-O jogador escolhe um número.
+1. Instale o **Python 3**  
+2. Execute:
 
-O computador sorteia outro número.
-
-Os dois são somados.
-
-O programa verifica se o total é par ou ímpar.
-
-Se o jogador acertar, continua.
-
-Se errar, o jogo acaba e mostra quantas vezes venceu.
-
-💻 Como executar
-
-Instale o Python (caso ainda não tenha).
-
-Salve o arquivo como par_ou_impar.py.
-
-Rode no terminal:
-
+```bash
 python par_ou_impar.py
-
-📌 Exemplo de execução
-Escolha um número: 7
-Par ou Ímpar? [P/I] P
-Você jogou 7 e o computador jogou 4. Total de 11.
-> Deu ÍMPAR!
-Você PERDEU! :(
-GAME OVER! Você venceu 3 vez(es).
-
-🛠 Tecnologias
-
-Python 3
-
-random (para gerar números aleatórios)
-
-time.sleep() (para pausas suaves)
-
-⭐ Aprendizados
-
-Este projeto fortalece:
-
-Estruturas de repetição (while True)
-
-Uso de módulos
-
-Condições e lógica de programação
-
-Validação de dados
-
-Organização e clareza no código
